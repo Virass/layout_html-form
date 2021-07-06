@@ -4,19 +4,30 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
 
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" onsubmit="onSubmit()" method="post">
+    <form 
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+    onsubmit="onSubmit()" 
+    method="post"
+    >
       <fieldset class="block">
         <legend>Personal information</legend>
         <label for="surname" class="forms">
           Surname:
-          <input type="text" name="surname" id="surname" autocomplete="off" required>
+          <input 
+          type="text" 
+          name="surname" 
+          id="surname" 
+          autocomplete="off" 
+          required
+          >
         </label>
         <label for="name" class="forms">
           Name:
